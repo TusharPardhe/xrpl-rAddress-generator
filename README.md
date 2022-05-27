@@ -33,7 +33,7 @@ Results will be an array of accounts in output.json file:
 
 ## How to run this program?
 
-1. Make sure you that **nodejs** and **npm** or **yarn** is installed ([Node](https://www.npmjs.com/get-npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)), [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/)).
+1. Make sure you that **nodejs** and **npm** or **yarn** is installed ([Node](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm), [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/)).
 2. Download the repository (using `git clone` or by directly downloading the zip file)
 3. Open the folder in vscode or any other editor of your choice
 4. Open terminal/commandline
@@ -42,6 +42,18 @@ Results will be an array of accounts in output.json file:
 6. Specify the number of threads `threads` and the max time limit `runFor` (in minutes) for the program in `settings.json` file.
 7. Save `settings.json` file.
 8. In terminal type `yarn generate` or `npm run generate` to generate your addresses.
+
+Settings.json file:
+```
+{
+    "threads": 10, 
+    "keywords": ["abc","xrp","hi","test","589"], 
+    "writeInFile": true,
+    "runFor": 10
+}
+```
+
+`Note: Don't forget to clear out output.json file after each input. Place [] (empty array) in output.json before running the code for an input`
 
 ## Important information
 
