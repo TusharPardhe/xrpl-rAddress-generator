@@ -1,4 +1,4 @@
-# XRP random rAddress (wallet) generator
+# XRPL random rAddress (wallet) generator
 
 A Javascript based script that randomly generates XRPL accounts that contain keywords provided by the user in settings.json file.
 
