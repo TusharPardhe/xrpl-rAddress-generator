@@ -33,7 +33,7 @@ Results will be an array of accounts in output.json file:
 
 ## How to run this program?
 
-1. Make sure you that **nodejs** or **yarn** is installed (Node: [https://www.npmjs.com/get-npm](https://www.npmjs.com/get-npm), Yarn: [https://classic.yarnpkg.com/lang/en/docs/install/](https://classic.yarnpkg.com/lang/en/docs/install/)).
+1. Make sure you that **nodejs** or **yarn** is installed ([Node]([https://www.npmjs.com/get-npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)), [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/)).
 2. Download the repository (using `git clone` or by directly downloading the zip file)
 3. Open the folder in vscode or any other editor of your choice
 4. Open terminal/commandline
