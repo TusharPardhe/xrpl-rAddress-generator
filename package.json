@@ -1,0 +1,16 @@
+{
+  "name": "xrp-account-addresses",
+  "version": "1.0.0",
+  "description": "A script written in Javascript to generate XRPL vanity account addresses based on user input",
+  "main": "main.js",
+  "scripts": {
+    "generate": "node --experimental-worker main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "xrpl": "^2.2.3"
+  }
+}

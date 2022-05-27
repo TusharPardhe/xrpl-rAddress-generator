@@ -1,0 +1,6 @@
+{
+    "threads": 4, 
+    "strings": ["xrp"], 
+    "writeInFile": true,
+    "runFor": 1
+}
