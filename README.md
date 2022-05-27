@@ -43,6 +43,8 @@ Results will be an array of accounts in output.json file:
 7. Save `settings.json` file.
 8. In terminal type `yarn generate` or `npm run generate` to generate your addresses.
 
+`Note: Don't forget to clear out output.json file after each input. Place [] (empty array) in output.json before running the code for an input`
+
 ## Important information
 
 - This script will search the address for keywords, which will appear anywhere in the address. 
