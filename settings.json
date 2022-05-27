@@ -1,6 +1,6 @@
 {
-    "threads": 4, 
-    "strings": ["xrp"], 
+    "threads": 10, 
+    "keywords": ["spce","space","nurse","nrse","nurs"], 
     "writeInFile": true,
-    "runFor": 1
+    "runFor": 10
 }
