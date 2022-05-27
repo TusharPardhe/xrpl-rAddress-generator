@@ -21,12 +21,12 @@ const { Worker } = require('worker_threads');
         worker.on("message", (data) => {
 
             if (typeof data === "string") {
-                console.log(`Time's up for worker number${worker.threadId}!!`);
+                console.log(`Time's up for worker number ${worker.threadId} !!`);
                 worker.terminate();
                 return;
             }
             // log it in console
-            console.log(`${[worker.threadId]}:`, data);
+            console.log(`${[worker.threadId]} :`, data);
 
             // if enabled write the data in file
             if (writeInFile) {
