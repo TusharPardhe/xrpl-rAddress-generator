@@ -47,3 +47,4 @@ Results will be an array of accounts in output.json file:
 
 - This script will search the address for keywords, which will appear anywhere in the address. 
 - Words of length 4 or less are easier to find (The longer the term, the longer it will take to find).
+- It utilises [XRPL.js](https://github.com/XRPLF/xrpl.js) library to generate random addresses.
