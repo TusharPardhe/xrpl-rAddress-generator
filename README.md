@@ -2,7 +2,7 @@
 
 A Javascript based script that randomly generates XRPL accounts that contain keywords provided by the user in settings.json file.
 
-The generated account format is [`r...`]
+The generated account format is `r...`
 
 This program uses worker threads ie. similar to multi-threading in other languages. You can spawn as many workers as you like in parallel depending upon how much load your computer can take.
 
