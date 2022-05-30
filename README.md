@@ -51,6 +51,7 @@ Settings.json file:
     "threads": 10, 
     "keywords": ["abc","xrp","hi","test","589"], 
     "writeInFile": true,
+    "type":"anywhere",
     "runFor": 10
 }
 ```
