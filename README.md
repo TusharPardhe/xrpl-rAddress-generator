@@ -39,7 +39,7 @@ Results will be an array of accounts in output.json file:
 4. Open terminal/commandline
 4. Run `npm install` or `yarn install`
 5. Open `settings.json` file and add your keywords in `keywords` array.
-6. Specify the number of threads `threads` and the max time limit `runFor` (in minutes) for the program in `settings.json` file.
+`Specify the number of threads `threads`, the `type` where you want to see your keyword:- end, beginning, anywhere or edge and the max time limit `runFor` (in minutes) for the program in `settings.json` file.`
 7. Save `settings.json` file.
 8. In terminal type `yarn generate` or `npm run generate` to generate your addresses.
 

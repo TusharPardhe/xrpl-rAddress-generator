@@ -3,14 +3,22 @@ const { Worker } = require('worker_threads');
 
 (function generateRandomAddress() {
     const settings = JSON.parse(fs.readFileSync("./settings.json"));
-    const { threads, keywords, writeInFile, runFor } = settings;
+    const { threads, keywords, writeInFile, runFor, type } = settings;
     console.log("Workers are working (Note: smaller the keywords, faster the results)...");
 
     // from runFor user input generate the max date in seconds
     const maxDate = new Date().setMinutes(new Date().getMinutes() + runFor);
 
     // generate regex from strings
-    const regex = new RegExp(keywords.join("|"), 'gi');
+    const getRegex = {
+        anywhere: new RegExp(keywords.join("|"), 'gi'),
+        edges: new RegExp('^(r)(' + keywords.join('|') + ')(.+)$|^(r.+)(' + keywords.join('|') + ')$', "i"),
+        beginning: new RegExp('^(r)(' + keywords.join('|') + ')(.+)$', "i"),
+        end: new RegExp('^(r.+)(' + keywords.join('|') + ')$', "i"),
+    };
+
+    const regex = getRegex[type];
+    console.log(`Your keywords as regex: ${regex}`);
 
     // spawn workers based on user input
     for (let i = 0; i < threads; i++) {

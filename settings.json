@@ -1,6 +1,7 @@
 {
-    "threads": 10, 
-    "keywords": ["spce","space","nurse","nrse","nurs"], 
+    "threads": 8,
+    "keywords": ["cool","hat","glow"],
     "writeInFile": true,
-    "runFor": 10
+    "type": "edges",
+    "runFor": 1
 }
