@@ -60,6 +60,6 @@ Settings.json file:
 
 ## Important information
 
-- This script will search the address for keywords, if you spawn more threads than your CPU can handle you can experience some slowness. 
+- This script will search the address for keywords, if you spawn more threads than your CPU can manage, your computer may slow down.  
 - Words of length 3 or less are easier to find (The longer the term, the longer it will take to find).
 - It utilises [XRPL.js](https://github.com/XRPLF/xrpl.js) library to generate random addresses.
