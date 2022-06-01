@@ -60,6 +60,6 @@ Settings.json file:
 
 ## Important information
 
-- This script will search the address for keywords, which will appear anywhere in the address. 
-- Words of length 4 or less are easier to find (The longer the term, the longer it will take to find).
+- This script will search the address for keywords, if you spawn more threads than your CPU can handle you can experience some slowness. 
+- Words of length 3 or less are easier to find (The longer the term, the longer it will take to find).
 - It utilises [XRPL.js](https://github.com/XRPLF/xrpl.js) library to generate random addresses.
